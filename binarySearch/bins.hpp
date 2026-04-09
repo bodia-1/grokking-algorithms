@@ -6,7 +6,7 @@
 class BinS
 {
   public:
-    int find(std::vector<int> arr, int item)
+    int find(const std::vector<int> & arr, size_t item)
     {
       int min = 0;
       int max = arr.size() - 1;
